@@ -24,7 +24,7 @@ from uagents_core.contrib.protocols.chat import (
 # ---------------------------------------------------------------------------
 
 agent = Agent(
-    name="orchestrator-agent",
+    name="mental-therapist",
     seed=os.environ.get("AGENT_SEED", "fallback_seed_change_in_prod"),
     mailbox=True,
 )
